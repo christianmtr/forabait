@@ -84,7 +84,7 @@ DATABASES = {
         'NAME': 'fourabyte',
         'USER': 'postgres',
         'PASSWORD': '123qweqweqwe',
-        'HOST': '192.168.1.62',
+        'HOST': 'localhost',
         'PORT': '5432',
     }
 }
@@ -127,6 +127,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 
 REST_FRAMEWORK = {
