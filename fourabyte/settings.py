@@ -139,5 +139,5 @@ REST_FRAMEWORK = {
 }
 
 CORS_ORIGIN_REGEX_WHITELIST = [
-    r"^(http|https):\/\/[a-z]+:\d+\/$",
+    r".*",
 ]
